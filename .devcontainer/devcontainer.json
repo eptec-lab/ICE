@@ -24,8 +24,8 @@
         },
         "vscode": {
             "extensions": [
-                "ms-python.pylint",
                 "ms-python.python",
+                "ms-python.pylint",
                 "ms-python.black-formatter",
                 "GitHub.copilot"
             ],
