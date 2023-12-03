@@ -1,5 +1,5 @@
 # import library
-from flask import Flask
+from flask import Flask, render_template
 
 # Create a new flask app instance
 app = Flask(__name__)
@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Create flask routes
 @app.route('/')
 def hello():
-    return 'Hello, World!'
+    return render_template('index.html')  # Utilizes the file base.html
 
 
 # create new route
@@ -16,7 +16,7 @@ def hello():
 def about():
     name = 'Duc'
     location = 'Ha Noi'
-    return f'My name is {name}, I live in {location}'
+    return render_template('about.html', name=name, location=location)
 
 
 # Main function

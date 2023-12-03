@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Flask App{% endblock %}</title>
+</head>
+<body>
+    <div id="sidebar">
+        <!-- Contenu du sidebar ici -->
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <!-- Ajoutez d'autres liens de sidebar ici -->
+        </ul>
+    </div>
+    <div id="content">
+        <!-- Contenu principal ici -->
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
