@@ -1,4 +1,4 @@
-# Projet_CTF-GANG
+# Projet_ICE
 Projet de fin d'étude de la TEAM CTF GANG
 
 - Enzo GALLOS
